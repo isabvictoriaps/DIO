@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
+}
+
+.input{
+    border-radius: 5px;
+    height: 28px;
+    width: 200px;
+    border: 2px solid rgb(169, 128, 240);
+    background-color: white;
+    color: lightcoral;
+}
+
+.input::placeholder{
+    text-align: center;
+}
+
+button{
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(169, 128, 240);
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: rgb(169, 128, 240);
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(117, 52, 228);
+}
+
+div{
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

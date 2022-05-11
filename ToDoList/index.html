@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site desenvolvido para obter conhecimento em JavaScript">
+    <meta name="keywords" content="JavaScript, DIO, Web Developer">
+    <link rel="stylesheet" href="Assets/style.css">
+    <script src="Assets/script.js"></script>
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div>
+        <h1>To-Do List</h1>
+        <p>Organize suas tarefas em poucos cliques!</p>
+        <form class="task-form">
+            <input onclick="adicionar()" type="text" name="inputTarefa" id="taskTarefa" placeholder="Digite aqui sua tarefa">
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+        <div id="tasks"></div>
+    </div>
+</body>
