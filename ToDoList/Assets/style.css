@@ -3,49 +3,64 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 225, 255);
+    background-color: rgb(33, 66, 87);
 }
 
-.input{
-    border-radius: 5px;
-    height: 28px;
-    width: 200px;
-    border: 2px solid rgb(169, 128, 240);
-    background-color: white;
-    color: lightcoral;
-}
-
-.input::placeholder{
+.divPrincipal {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-}
-
-button{
-    height: 35px;
-    border-radius: 5px;
-    border: 2px solid rgb(169, 128, 240);
-    background-color: white;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-button:hover{
-    background-color: rgb(169, 128, 240);
+    border: 3px solid white;
+    border-radius: 30px;
+    height: 600px;
+    width: 700px;
     color: white;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-}
 
-h1{
-    color: rgb(117, 52, 228);
-}
-
-div{
-    justify-content: center;
+button {
+    border: 1px solid rgb(177, 225, 255);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    height: 100vh;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: rgb(32, 51, 80);
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="text"] {
+    padding-left: 15px;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#tasks {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+:checked+label {
+    text-decoration: line-through;
+    color: grey;
 }
