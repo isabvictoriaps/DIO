@@ -1,5 +1,5 @@
-# DIO
-Repositório criado para armazenar as atividades e projetos que realizei na plataforma Digital Innovation One
+# 💛 DIO
+Repositório criado para armazenar as atividades e projetos que realizei na plataforma Digital Innovation One:
 
 <a href="https://github.com/isabvictoriaps/DIO/tree/main/Netflix"> - 🧡 Reprodução da Netflix com HTML, CSS, JavaScript e jQuery </a> <br>
 A reprodução da interface da Netflix foi um projeto proposto no Bootcamp da Digital Innovation One, com esse projeto coloquei em prática muitos assuntos relacionados ao JQuery. <br> <br>
