@@ -13,3 +13,6 @@ O contador foi um exercício proposto na aula de introdução ao JavaScript, foi
 
 <a href="https://github.com/isabvictoriaps/DIO/tree/main/ToDoList"> - 🧡 To-Do List utilizando HTML, CSS e JavaScript. </a> <br>
 O To-do List também foi realizado durante o curso de introdução ao JavaScript, foi muito bom ver aos pouquinhos a página tomando forma e mudando a interface a cada item que era adicionado. <br> <br>
+
+<a href="https://github.com/isabvictoriaps/DIO/tree/main/desafio-poo/src"> - 🧡 Desafio POO com Java. </a> <br>
+O desafio POO Java foi realizado durante um bootcamp realizado pelo Santander, foi muito legal aprender sobre esse conteúdo e me aventurar no back-end. <br> <br>
